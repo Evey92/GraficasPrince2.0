@@ -115,6 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="GraphicsAPI.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="WindowMain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="GraphicsAPI.cpp" />
+    <ClCompile Include="WindowMain.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
